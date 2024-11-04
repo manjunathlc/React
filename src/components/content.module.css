@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wholeSection{
+    /* height: calc(100vh-72px);
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh-72px);
+}
+.wholeSection h1{
+    font-weight: 800;
+    line-height: 102px;
+    font-size: 108px;
+}
+.wholeSection p{
+    font-weight: 600;
+    color: gray;
+    max-width: 400px;
+
+}
+.btnArea{
+    display: flex;
+    gap: 40px;
+}
+.btnArea button{
+    all: unset;
+    padding: 6px 16px;
+    background-color: red;
+    color: white;
+    height: 32px;
+    font-weight: 500;
+}
+.btnArea .secondaryBtn{
+    background-color: transparent;
+    color: gray;
+    border: 1px solid gray;
+}
+.avialabeArea p{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.brandIcons{
+    display: flex;
+    gap: 20px;
+}
+
+.contentArea{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}

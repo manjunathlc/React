@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigationBar{
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.navList{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 24px;
+}
+.navButton{
+    all: unset;
+    padding: 6px 16px;
+    background-color: red;
+    color: white;
+    height: 32px;
+    font-weight: 500;
+}
